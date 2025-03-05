@@ -1,0 +1,24 @@
+1. Web Dashboard
+2. Starring questions
+3. Sorting questions based on topics
+4. question README builder and parser
+5. .github/ tests and linters
+6. sponsor project guidelines
+7. main readme
+8. pyproject description
+9. github page descriptions
+10. question solved stats
+11. commit maker script
+
+
+scripts:
+1. go through all files and store their hash in hash.json. associate them in this way:
+    "file_name": "file_hash"
+2. make a folder named static/problemset and create a question_id.question_name.md file and store the following:
+    1. question info
+    2. intuition to question
+    3. solution to question 
+3. if any file is changed in script 1, then alter the static/problemset accordingly.
+4. star/unstar question w/ question id script. + lists
+
+5. testing script
